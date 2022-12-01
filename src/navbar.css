@@ -1,0 +1,28 @@
+.title {
+  font-family: system-ui;
+  background: linear-gradient(to right, #fb5607 0%, hotpink 40%, #8338ec 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+  font-size: 2rem;
+}
+
+nav{
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  margin-bottom: 2rem;
+}
+
+.navbarGrid {
+  display: grid; 
+  grid-template-columns: 4fr 1fr;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.address {
+  font-size: 0.8em;
+  margin: 0;
+}
