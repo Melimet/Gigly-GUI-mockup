@@ -12,12 +12,14 @@ nav{
   position: sticky;
   top: 0;
   margin-bottom: 2rem;
+  z-index: 1;
+  background-color: white;
 }
+
 
 .navbarGrid {
   display: grid; 
   grid-template-columns: 4fr 1fr;
-  color: white;
   margin: 0;
   padding: 0;
 }
