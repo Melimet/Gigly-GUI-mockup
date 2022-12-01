@@ -1,4 +1,4 @@
-import "../gigs.css"
+import "../styles/gigs.css"
 import image from "../plumber.webp"
 
 function Gigs() {
@@ -20,7 +20,7 @@ function Gigs() {
 
   return (
     <main>
-      <h2>What kind of help do you need?</h2>
+      <h2>Professionals by category</h2>
       <ul className="gigGrid">
         {gigs.map((gig) => (
           <li className="gig" key={gig}>

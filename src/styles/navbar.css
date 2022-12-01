@@ -16,7 +16,6 @@ nav{
   background-color: white;
 }
 
-
 .navbarGrid {
   display: grid; 
   grid-template-columns: 4fr 1fr;
